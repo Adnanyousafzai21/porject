@@ -63,7 +63,7 @@ const Project = () => {
   ];
 
   return (
-    <div className=" lg:px-20 px-8 ">
+    <div className=" lg:px-20 px-8 max-w-[1500px] m-auto">
       <div className=" mt-8 my-5"><p className="text-heading' text-center">Utvalgte prosjekter</p>
         <h2 className="text-[26px] font-bold text-heading text-center">Vi liker å levere resultater</h2></div>
 

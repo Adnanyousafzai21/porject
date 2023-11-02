@@ -34,7 +34,7 @@ const data =[
 ]
 
     return (
-        <div className=" lg:px-20 px-8 py-20">
+        <div className=" lg:px-20 px-8 py-20 m-auto max-w-[1500px]">
             <div className="p-5 mt-10"><p className="text-heading' text-center">Utvalgte prosjekter</p>
                 <h2 className="text-[26px] font-bold text-heading text-center">Vi liker å levere resultater</h2></div>
             <div className="flex justify-between flex-wrap  py-5 gap-16  ">

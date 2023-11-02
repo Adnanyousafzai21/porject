@@ -9,6 +9,7 @@ import Services from './pages/Services'
 import Works from './pages/Works'
 import Slider from './pages/Reprences'
 import Reprences from './pages/Reprences'
+import Contact from './pages/Contact'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,6 +22,7 @@ function App() {
 <Project/>
 <Works/>
 {/* <Reprences/>  */}
+<Contact/>
    </>
   )
 }
