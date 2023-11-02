@@ -17,7 +17,7 @@ const data =[
     {
         id:"3",
         img:"https://www.webiser.no/static/images/other/dev.jpg",
-        title:"Vi starter på nettsiden",
+        title:"Vi starter på",
         text:"Når alle krav har blitt gått gjennom, starter vi på nettsiden. Du vil få se nettsiden live mens vi gjør den ferdig"
     },    {
         id:"4",
