@@ -40,7 +40,7 @@ const data =[
             <div className="flex justify-between flex-wrap  py-5 gap-16  ">
                 {
                     data.map((data, index)=>(
-                        <div className="lg:w-[28%] md:45% w-[100%] rounded-md shadow-lg lg:h-[350px] h-[300px] relative group overflow-hidden border" >
+                        <div  className="lg:w-[28%] md:45% w-[100%] rounded-md shadow-lg lg:h-[350px] h-[300px] relative group overflow-hidden border" key={index} >
                     <img src={data.img} alt="" className=" z-0 w-[100%] lg:h-[350px] h-[300px] rounded-md shadow-md absolute " />
                     <div className="py-3 text-center lg:mt-[250px] mt-[200px] group-hover:mt-[0px] duration-500 text-white shadow-lg z-20 relative bg-opacity-80 h-[350px] bg-overflow flex flex-col gap-6 justify-center z items-center">
                         {/* <div className=""> */}

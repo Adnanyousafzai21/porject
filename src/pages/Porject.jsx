@@ -68,7 +68,7 @@ const Project = () => {
         <h2 className="text-[26px] font-bold text-heading text-center">Vi liker å levere resultater</h2></div>
 
       <div className="flex lg:justify-between justify-center flex-wrap  py-5 gap-16">
-        {data.map((item) => {
+        {data.map((item ,index) => {
           return (
             <div className="lg:w-[28%] md:45% w-[100%] rounded-md shadow-lg" key={item.id}>
               <img src={item.imag} alt="Avatar" className="rounded-md" />

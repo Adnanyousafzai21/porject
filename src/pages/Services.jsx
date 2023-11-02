@@ -6,8 +6,9 @@ import { Rocket } from 'lucide-react';
 import { CircleDollarSign } from 'lucide-react';
 import { CloudHail } from 'lucide-react';
 import { Image } from 'lucide-react';
+
 const Services = () => {
-  const sevices = [
+  const data = [
     {
       icons: <Store />,
       name: "Nettbutikk",
@@ -65,7 +66,7 @@ const Services = () => {
       </div>
       <div className='lg:w-[60%] w-[100%] flex items-center justify-center flex-wrap gap-5 mt-[20px] lg:mt-[0px]'>
         {
-          sevices.map((service, index) => (
+          data.map((service, index) => (
             <div key={index} className='p-8 rounded bg-themshadow md:max-w-[48%] max-w-[100%]  h-[190px] group hover:bg-themcolor hover:text-white text-heading duration-700'>
               <div key={index} className='text-center'>
               <div className="flex justify-center">

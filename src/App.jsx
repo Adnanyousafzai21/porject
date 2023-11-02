@@ -5,8 +5,10 @@ import './App.css'
 import Header from './components/Navbar'
 import Hero from './components/Hero'
 import Project from './pages/Porject'
-import Services from './pages/services'
+import Services from './pages/Services'
 import Works from './pages/Works'
+import Slider from './pages/Reprences'
+import Reprences from './pages/Reprences'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,7 +20,8 @@ function App() {
 <Services/>
 <Project/>
 <Works/>
-    </>
+{/* <Reprences/>  */}
+   </>
   )
 }
 
