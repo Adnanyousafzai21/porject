@@ -21,6 +21,7 @@ module.exports = {
         'themcolor': '#0088F9', 
         'heading':"#183b56",
         'overflow':"#83BDEC",
+        "contanbg":"#D1E7FA",
         'themshadow':"rgba(172, 218, 255, 0.1098039216)",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

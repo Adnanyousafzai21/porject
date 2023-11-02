@@ -45,25 +45,21 @@ const Project = () => {
     {
       id: 5,
       imag: "https://www.webiser.no/static/images/other/man-hat.jpg",
-      link: "https://textandcolorproperties.netlify.app/",
       proname: "Text editor",
       techname: "text about the projects",
-      discription:
-        "I made this website with tailwind css Nextjs , redux I also created the same project with react redux and tailwind css but not published yet",
-    },
+      },
     {
       id: 6,
       imag: "https://www.webiser.no/static/images/other/man-hat.jpg",
-      link: "https://adnan-react-app.netlify.app/",
       proname: "Resturant ui",
       techname: "text about the projects",
-      discription:
-        "I made this website with tailwind css Nextjs , redux I also created the same project with react redux and tailwind css but not published yet",
-    },
+       },
+
+  
   ];
 
   return (
-    <div className=" lg:px-20 px-8 max-w-[1500px] m-auto">
+    <div className=" lg:px-20 px-8  py-6 max-w-[1500px] m-auto">
       <div className=" mt-8 my-5"><p className="text-heading' text-center">Utvalgte prosjekter</p>
         <h2 className="text-[26px] font-bold text-heading text-center">Vi liker å levere resultater</h2></div>
 

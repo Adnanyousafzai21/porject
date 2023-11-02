@@ -24,17 +24,22 @@ const data =[
         img:"https://www.webiser.no/static/images/other/man-phone.jpg",
         title:"Nettsiden er fullført",
         text:"Du vil få 100% eierskap innen 3 dager etter bestilling er fullført"
-    },    {
-        id:"5",
+    }, {
+        id:"1",
+        img:"https://www.webiser.no/static/images/other/woman-laptop.jpg",
+        title:"Send en melding",
+        text:"Med engang henvendelsen har blitt motatt vil vi kontaktere deg tilbake innen 60 minutter"
+    },
+    {
+        id:"2",
         img:"https://www.webiser.no/static/images/other/man-talking-pc.jpg",
-        title:"Vi starter på nettsiden",
-        text:"Når alle krav har blitt gått gjennom, starter vi på nettsiden. Du vil få se nettsiden live mens vi gjør den ferdig"
-    }
-   
+        title:" Snakk med oss",
+        text:"Sammen skal vi finne ut akuratt det du trenger til å lykkes. Vi samarbeider tett sammen"
+    },
 ]
 
     return (
-        <div className=" lg:px-20 px-8 py-20 m-auto max-w-[1500px]">
+        <div className=" lg:px-20 px-8 py-6 m-auto max-w-[1500px]">
             <div className="p-5 mt-10"><p className="text-heading' text-center">Utvalgte prosjekter</p>
                 <h2 className="text-[26px] font-bold text-heading text-center">Vi liker å levere resultater</h2></div>
             <div className="flex justify-between flex-wrap  py-5 gap-16  ">
