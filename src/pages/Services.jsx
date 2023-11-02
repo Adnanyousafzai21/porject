@@ -67,7 +67,7 @@ const Services = () => {
       <div className='lg:w-[60%] w-[100%] flex items-center justify-center flex-wrap gap-5 mt-[20px] lg:mt-[0px]'>
         {
           data.map((service, index) => (
-            <div key={index} className='p-8 rounded bg-themshadow md:max-w-[48%] max-w-[100%]  h-[190px] group hover:bg-themcolor hover:text-white text-heading duration-700'>
+            <div key={index} className='p-8 rounded bg-themshadow md:max-w-[48%] max-w-[100%]  lg:h-[190px] h-[210px] group hover:bg-themcolor hover:text-white text-heading duration-700'>
               <div key={index} className='text-center'>
               <div className="flex justify-center">
                 {service.icons}

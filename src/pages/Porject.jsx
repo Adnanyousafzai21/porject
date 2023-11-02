@@ -71,7 +71,7 @@ const Project = () => {
               <div className="py-3 text-center text-heading">
                 <h4 className="text-heading font-bold">{item.proname}</h4>
                 <p>{item.techname}</p> 
-                <div className="flex lg:gap-8 gap-3 pt-4 p-3 justify-center">
+                <div className="flex lg:gap-8 gap-5 pt-4 p-3 justify-center">
                   <div to={item.link} className="font-normal lg:px-9 px-6 py-1 te rounded text-center text-white bg-themcolor hover:bg-white duration-500 cursor-pointer hover:border border-thecolor hover:text-themcolor">
                     Visit
                   </div>
