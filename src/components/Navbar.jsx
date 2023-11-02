@@ -21,11 +21,11 @@ const Header = () => {
                     <Link href={"/categorey/women"}><li className={` p-3  lg:p-2 lg:my-auto lg:py-2 w-[200px] lg:w-auto rounded  cursor-pointer  hover:bg-gray-100 lg:bg-white font-normal text-[rgb(24,59,86)] text-[20px] `}>Prosjekter</li></Link>
                     <Link href={"/contact"}><li className={` p-3  lg:p-2 lg:my-auto lg:py-2 w-[200px] lg:w-auto rounded  cursor-pointer  hover:bg-gray-100 lg:bg-white font-normal text-[#183b56] text-[20px] `}>Om Webiser</li></Link>
                 </ul>
-                <Link href={"/addtocart"} className="relative  bg-[#0088F9]  py-[6px] rounded flex justify-center lg:text-[21px] text-[15px] items-center lg:px-2 px-4 text-white">
+                <Link href={"/addtocart"} className="relative  bg-themcolor  py-[6px] rounded flex justify-center lg:text-[21px] text-[15px] items-center lg:px-2 px-4 text-white">
                     Get started
                 </Link>
             </div>
-            <div className=" text-[30px] lg:hidden text-[#0088F9] order-[-1]">
+            <div className=" text-[30px] lg:hidden text-thembg-themcolor order-[-1]">
                 {open ? <X onClick={() => { setOpen(!open) }} className="text-[30px]" /> : <Menu onClick={() => { setOpen(!open) }} className="text-[30px]" />}
             </div>
         </div>

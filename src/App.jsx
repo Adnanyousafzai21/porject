@@ -7,8 +7,6 @@ import Hero from './components/Hero'
 import Project from './pages/Porject'
 import Services from './pages/Services'
 import Works from './pages/Works'
-import Slider from './pages/Reprences'
-import Reprences from './pages/Reprences'
 import Contact from './pages/Contact'
 
 function App() {
@@ -21,7 +19,6 @@ function App() {
 <Services/>
 <Project/>
 <Works/>
-{/* <Reprences/>  */}
 <Contact/>
    </>
   )

@@ -3,7 +3,7 @@ import React from 'react'
 const Contact = () => {
     return (
         <div className=''>
-            <div className='mt-8  bg-contanbg lg:py-20 py-10 '>
+            <div className='mt-8  bg-contanbg  bg-opacity-20 lg:py-20 py-10 '>
                 <div className=" mt-8 ">
                     <p className="text-heading' text-center">Klar for en prat med oss? Ring gjerne til +4745397946 eller bruk kontaktskjema</p>
                     <h2 className="text-[26px] font-bold text-heading text-center">Kom i gang nå, og ta bedriften din til neste nivå</h2></div>
@@ -23,7 +23,7 @@ const Contact = () => {
                                 <textarea name="" id="" cols="25" rows="4" className='border px-9 py-3 rounded-md w-[90%]' ></textarea>
                                 {/* // <input type="text" className='border px-9 py-3 rounded-md ' /> */}
                             </div>
-                            <div className="font-normal lg:px-9 px-6 py-1 te rounded text-center text-white bg-themcolor hover:bg-white duration-500 cursor-pointer hover:border border-thecolor hover:text-themcolor">
+                            <div className="font-normal lg:px-9 px-8 py-2 te rounded text-center text-white bg-themcolor hover:bg-white duration-500 cursor-pointer hover:border border-thecolor hover:text-themcolor">
                                 Send
                             </div>
                         </div>

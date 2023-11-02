@@ -6,7 +6,7 @@ import { Rocket } from 'lucide-react';
 import { CircleDollarSign } from 'lucide-react';
 import { CloudHail } from 'lucide-react';
 import { Image } from 'lucide-react';
-
+import Slider from "react-slick";
 const Services = () => {
   const data = [
     {

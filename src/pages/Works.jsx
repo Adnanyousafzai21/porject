@@ -49,7 +49,7 @@ const data =[
                     <img src={data.img} alt="" className=" z-0 w-[100%] lg:h-[350px] h-[300px] rounded-md shadow-md absolute " />
                     <div className="py-3 text-center lg:mt-[250px] mt-[200px] group-hover:mt-[0px] duration-500 text-white shadow-lg z-20 relative bg-opacity-80 h-[350px] bg-overflow flex flex-col gap-6 justify-center z items-center">
                         {/* <div className=""> */}
-                            <div className="bg-themcolor  w-8 h-8 rounded-full flex items-center justify-center mt-[-70px] " >{data.id}</div>
+                            <div className="bg-works# z-50 w-8 h-8 rounded-full flex items-center justify-center mt-[-70px] " >{data.id}</div>
                         {/* </div> */}
                         <h2 className="text-[26px] font-bold text-center">{data.title}</h2>
                         <p>{data.text }</p>

@@ -6,7 +6,7 @@ module.exports = {
     './components/**/*.{js,jsx}',
     './app/**/*.{js,jsx}',
     './src/**/*.{js,jsx}',
-	],
+  ],
   theme: {
     container: {
       center: true,
@@ -16,13 +16,25 @@ module.exports = {
       },
     },
     extend: {
-      
+
       colors: {
-        'themcolor': '#0088F9', 
+        // 'overflow':"#83BDEC",
+        // "contanbg":"#D1E7FA",
+        // 'themshadow':"rgba(172, 218, 255, 0.1098039216)",
+        // 2
+        'themcolor': '#1B8F8B', 
         'heading':"#183b56",
-        'overflow':"#83BDEC",
-        "contanbg":"#D1E7FA",
-        'themshadow':"rgba(172, 218, 255, 0.1098039216)",
+        'overflow':"#1B8F8B",
+        "contanbg":"#6d9998",
+        'themshadow':"#E3FCFB",
+        "works#":"#0E5B63",
+        // 3
+        // 'themcolor': '#192A56',
+        // "works#":"#3CCC73",
+        // 'heading': "#183b56",
+        // 'overflow': "#1B8F8B",
+        // "contanbg": "#1B8F8B",
+        // 'themshadow': "#E3FCFB",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

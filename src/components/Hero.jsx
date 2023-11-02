@@ -9,8 +9,8 @@ const Hero = () => {
                     Vårt dedikerte team av fagfolk kombinerer kreativitet og teknisk kompetanse, og gir deg en solid digital tilstedeværelse.
                 </p>
                 <div className="flex lg:gap-5 lg:justify-start justify-center gap-3">
-                    <button className='bg-[#0088F9] lg:px-[80px] px-[35px] py-3 text-white rounded'>kam i gang</button>
-                    <button className='text-[#0088F9] border border-[#0088F9] lg:px-[80px] px-[40px] py-3 rounded'> prri dijd</button>
+                    <button className='bg-themcolor lg:px-[80px] px-[35px] py-3 text-white rounded'>kam i gang</button>
+                    <button className='text-themcolor border border-themcolor lg:px-[80px] px-[40px] py-3 rounded'> prri dijd</button>
                 </div>
             </div>
            
